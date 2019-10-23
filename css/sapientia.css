@@ -309,7 +309,7 @@ body {
           transform: translate(-50%, -50%);
 
   width: 75%;
-  height: 400px;
+  min-height: 400px;
   -webkit-box-shadow: 0 2rem 4rem rgba(black, 0.2);
           box-shadow: 0 2rem 4rem rgba(black, 0.2);
   border-radius: 3px;
@@ -324,6 +324,7 @@ body {
   text-align: center;
     padding-top: 2em;
     background-color: #e8e6e6;
+    padding-bottom: 3em;
 }
 .popup__content>*{
   padding: 0.3em;
