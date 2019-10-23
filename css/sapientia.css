@@ -7,6 +7,7 @@
           box-sizing: inherit;
 }
 
+
 html {
   /* Defines what 1rem is (10px) */
   font-size: 62.5%;
@@ -309,7 +310,6 @@ body {
 
   width: 75%;
   height: 400px;
-  background-color: #fff;
   -webkit-box-shadow: 0 2rem 4rem rgba(black, 0.2);
           box-shadow: 0 2rem 4rem rgba(black, 0.2);
   border-radius: 3px;
@@ -321,6 +321,12 @@ body {
   -webkit-transition: all 0.5s 0.2s;
   -o-transition: all 0.5s 0.2s;
   transition: all 0.5s 0.2s;
+  text-align: center;
+    padding-top: 2em;
+    background-color: #e8e6e6;
+}
+.popup__content>*{
+  padding: 0.3em;
 }
 
 /* OPEN STATES */
